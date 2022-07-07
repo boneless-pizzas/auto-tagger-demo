@@ -23,8 +23,8 @@ jobs:
 
       - name: Set Author
         run: |
-          git config --local user.name 'internal-toolsbot'
-          git config --local user.email 'internal-toolsbot@users.noreply.github.com'
+          git config --local user.name 'dtgreene'
+          git config --local user.email 'dtgreene@users.noreply.github.com'
       - name: Bump Version
         id: bump_version
         uses: 'dtgreene/keyword-version-bump@main'
