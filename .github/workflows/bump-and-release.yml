@@ -44,7 +44,7 @@ jobs:
         id: release_changelog
         uses: mikepenz/release-changelog-builder-action@v2.9.0
         with:
-          configuration: '.github/workflows/release-notes-config.json'
+          configuration: '.github/workflows/release-notes.config.json'
 
       - name: Create Release
         uses: actions/create-release@v1
