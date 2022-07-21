@@ -9,5 +9,5 @@ on:
 jobs:
   bump_and_release:
     uses: boneless-pizzas/bump-and-release/.github/workflows/bump-and-release.yml@main
-    with: 
+    secrets: 
       BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
